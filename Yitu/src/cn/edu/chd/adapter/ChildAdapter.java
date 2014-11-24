@@ -15,10 +15,6 @@ import cn.edu.chd.utils.NativeImageLoader;
 import cn.edu.chd.utils.NativeImageLoader.NativeImageLoaderCallback;
 import cn.edu.chd.yitu.R;
 
-/**
- * @author Rowandjj
- *
- */
 public class ChildAdapter extends BaseAdapter
 {
 	private List<String> data;
