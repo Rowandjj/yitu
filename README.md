@@ -4,8 +4,6 @@
   <title>yitu</title>
 </head>
 <body>
-  <h1 id='id1'>yitu</h1>
-
   <p><strong>“易涂”</strong>是一款<em>基于Android的手机2D涂鸦软件</em>。
   旨在使用户在没有额外支撑平台的情况下，能够单手能够完成复杂的绘图操作。
   该软件针对<strong>Android 2.2</strong>及以上版本智能手机，利用了智能手机中的加速度等传感设备，兼具多点触控、语音识别与重力传感，
