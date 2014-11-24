@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f00" >
+
+    <ImageButton
+        android:id="@+id/title_bar_but_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/title_bar_selector_default"
+        android:text="@string/str_back"
+         />
+    <TextView
+        android:id="@+id/title_bar_tv_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/str_yitu"
+        android:textColor="#fff"
+        android:textSize="27sp" />
+</RelativeLayout>
+
+
+
+

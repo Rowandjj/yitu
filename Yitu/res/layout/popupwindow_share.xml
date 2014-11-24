@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:id="@+id/ll_share_root"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/str_share"
+        android:textColor="#41bbe8"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#41bbe8" />
+
+    <LinearLayout
+         android:id="@+id/id_share_sinaweibo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+             android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/logo_sinaweibo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/share_sinaweibo"
+            android:textSize="20dp" />
+
+        
+    </LinearLayout>
+    
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e3e0e3" />
+    
+    <LinearLayout
+         android:id="@+id/id_share_qzone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+             android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/logo_qzone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/share_qzone"
+            android:textSize="20dp" />
+
+        
+    </LinearLayout>
+    
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e3e0e3" />
+    
+    <LinearLayout
+         android:id="@+id/id_share_renren"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+             android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/logo_renren" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/share_renren"
+            android:textSize="20dp" />
+
+        
+    </LinearLayout>
+    
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e3e0e3" />
+    
+    <LinearLayout
+         android:id="@+id/id_share_message"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+             android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/logo_shortmessage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/share_message"
+            android:textSize="20dp" />
+
+        
+    </LinearLayout>
+    
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e3e0e3" />
+    
+    <LinearLayout
+        android:id="@+id/id_share_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+             android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/logo_email" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/share_email"
+            android:textSize="20dp" />
+
+        
+    </LinearLayout>
+    
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e3e0e3" />
+
+</LinearLayout>
+
+
+
+

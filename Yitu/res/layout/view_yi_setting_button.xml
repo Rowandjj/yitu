@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp" >
+
+    <Button
+        android:id="@+id/but_setting_content"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/setting_button"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/str_setting_content"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <ToggleButton
+        android:id="@+id/toggle_but_setting_onff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/toggle_selector"
+        android:checked="false"
+        android:textOff=""
+        android:textOn="" />
+
+</FrameLayout>

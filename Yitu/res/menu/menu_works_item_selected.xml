@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/id_menu_works_edit"
+        android:visible="true"
+        android:orderInCategory="100"
+        android:title="@string/str_edit"
+        />
+    <item 
+        android:id="@+id/id_menu_works_delete"
+        android:visible="true"
+        android:orderInCategory="100"
+        android:title="@string/str_delete"
+        />
+</menu>

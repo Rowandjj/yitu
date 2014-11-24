@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fl_root"
+    android:orientation="vertical" >
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/fl_change"
+        >
+      <cn.edu.chd.view.YiDrawView
+	    android:id="@+id/dv_canvas"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    />
+    </FrameLayout>
+	
+	
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="left|top"
+	    android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+	    >
+	    <ImageView 
+        android:id="@+id/iv_browser"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/browser"
+        android:padding="8dp"
+        android:background="@drawable/weidget_border_style"
+        />
+	    <ImageView
+	        android:id="@+id/iv_copy"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:padding="8dp"
+	        android:layout_marginTop="20dp"
+	        android:src="@drawable/copy"
+	        android:background="@drawable/weidget_border_style"
+	        />
+	    <ImageView 
+	        android:id="@+id/iv_paste"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:layout_marginTop="20dp"
+	        android:padding="8dp"
+	        android:src="@drawable/paste"
+	        android:background="@drawable/weidget_border_style"
+	        />
+	    <ImageView 
+	        android:id="@+id/iv_tuyuan_large"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:layout_marginTop="20dp"
+	        android:padding="8dp"
+	        android:src="@drawable/zoom_large"
+	        android:background="@drawable/weidget_border_style"
+	        />
+	    <ImageView 
+	        android:id="@+id/iv_tuyuan_small"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:layout_marginTop="20dp"
+	        android:padding="8dp"
+	        android:src="@drawable/zoom_small"
+	        android:background="@drawable/weidget_border_style"
+	        />
+	    
+	    <ImageView 
+	        android:id="@+id/iv_tuyuan_ratate_left"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:layout_marginTop="20dp"
+	        android:padding="8dp"
+	        android:src="@drawable/rotate_left"
+	        android:background="@drawable/weidget_border_style"
+	        />
+	    
+	    <ImageView 
+	        android:id="@+id/iv_tuyuan_rotate_right"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:layout_marginTop="20dp"
+	        android:padding="8dp"
+	        android:src="@drawable/rotate_right"
+	        android:background="@drawable/weidget_border_style"
+	        />
+	</LinearLayout>
+	<cn.edu.chd.view.YiRotateMenu 
+	    android:id="@+id/rotate_menu"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    ></cn.edu.chd.view.YiRotateMenu>
+</FrameLayout>
+
+
+
+
+

@@ -1,0 +1,12 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity" >
+
+    <cn.edu.chd.view.YiGuideView
+        android:id="@+id/ugv_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </cn.edu.chd.view.YiGuideView>
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.edu.chd.view.SlidingFinishLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slide_finish_cr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/ll_cr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <cn.edu.chd.view.YiTitleBar
+            android:id="@+id/ytb_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </cn.edu.chd.view.YiTitleBar>
+
+        <WebView
+            android:id="@+id/webview_about"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</cn.edu.chd.view.SlidingFinishLayout>

@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="match_parent"  
+    android:orientation="vertical"
+    android:layout_height="wrap_content" >  
+  	<cn.edu.chd.view.YiTitleBar 
+  	    android:id="@+id/ytb_show_image"
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content"
+  	    android:layout_marginBottom="15dp"
+  	    ></cn.edu.chd.view.YiTitleBar>
+    <GridView  
+        android:id="@+id/show_image_grid"  
+        android:layout_width="match_parent" 
+        android:layout_margin="14dp" 
+        android:layout_height="match_parent"  
+        android:listSelector="@android:color/transparent"  
+        android:cacheColorHint="@android:color/transparent"  
+        android:stretchMode="columnWidth"  
+        android:horizontalSpacing="10dip"  
+        android:gravity="center"  
+        android:verticalSpacing="10dip"  
+        android:columnWidth="90dip"  
+        android:numColumns="3" >  
+    </GridView>  
+  
+</LinearLayout>  
+
+
+
+
+
+
+
+
+
+
+

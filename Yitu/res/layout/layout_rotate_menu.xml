@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/level1"
+         >
+
+        <ImageButton
+            android:id="@+id/ib_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/icon_home" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level2"
+        android:layout_width="180dip"
+        android:layout_height="90dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/level2"
+         >
+
+        <ImageButton
+            android:id="@+id/second_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dip"
+            android:background="@drawable/undo" />
+
+        <ImageButton
+            android:id="@+id/second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="6dip"
+            android:background="@drawable/icon_menu" />
+
+        <ImageButton
+            android:id="@+id/second_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dip"
+            android:background="@drawable/redo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level3"
+        android:layout_width="280dip"
+        android:layout_height="140dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/level3"
+         >
+
+        <ImageButton
+            android:id="@+id/third_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="6dip"
+            android:layout_marginLeft="12dip"
+            android:background="@drawable/saven" />
+
+        <ImageButton
+            android:id="@+id/third_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/third_1"
+            android:layout_marginBottom="12dip"
+            android:layout_marginLeft="28dip"
+            android:background="@drawable/deleten" />
+
+        <ImageButton
+            android:id="@+id/third_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/third_2"
+            android:layout_marginBottom="6dip"
+            android:layout_marginLeft="8dip"
+            android:layout_toRightOf="@id/third_2"
+            android:background="@drawable/penn" />
+
+        <ImageButton
+            android:id="@+id/third_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="6dip"
+            android:background="@drawable/barrel" />
+
+        <ImageButton
+            android:id="@+id/third_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/third_6"
+            android:layout_marginBottom="6dip"
+            android:layout_marginRight="8dip"
+            android:layout_toLeftOf="@+id/third_6"
+            android:background="@drawable/eraser" />
+
+        <ImageButton
+            android:id="@+id/third_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/third_7"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="12dip"
+            android:layout_marginRight="28dip"
+            android:background="@drawable/special" />
+
+        <ImageButton
+            android:id="@+id/third_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="6dip"
+            android:layout_marginRight="12dip"
+            android:background="@drawable/color" />
+    </RelativeLayout>
+</RelativeLayout>

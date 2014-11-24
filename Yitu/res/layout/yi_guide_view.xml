@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<ImageSwitcher 
+	    android:id="@+id/yi_guide_vs"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    ></ImageSwitcher>
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    >
+	    <LinearLayout 
+	        android:id="@+id/yi_guide_viewgroup"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:gravity="center_horizontal"
+	        android:layout_marginBottom="30dp"
+	        ></LinearLayout>
+	</RelativeLayout>
+</FrameLayout>
