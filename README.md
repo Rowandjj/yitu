@@ -1,7 +1,6 @@
 ﻿<html>
 <head>
   <meta content='application/xhtml+xml;charset=utf-8' http-equiv='Content-type' />
-  <title>yitu</title>
 </head>
 <body>
   <p><strong>“易涂”</strong>是一款<em>基于Android的手机2D涂鸦软件</em>。
